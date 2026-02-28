@@ -11,10 +11,10 @@ do {
   console.log(`Attempt ${attempt}: Random Value = ${randomValue.toFixed(2)}`);
 
   if (randomValue > 0.6) {
-    console.log("API Call SUCCESS ✅");
+    console.log("API Call SUCCESS");
     success = true;
   } else {
-    console.log("API Call FAILED ❌ - Retrying...");
+    console.log("API Call FAILED - Retrying...");
   }
 
 } while (!success && attempt < MAX_ATTEMPTS);
