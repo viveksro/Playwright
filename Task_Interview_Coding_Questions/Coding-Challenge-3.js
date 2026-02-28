@@ -24,5 +24,5 @@ console.log("\n===== FINAL RESULT =====");
 if (success) {
   console.log(`API call succeeded after ${attempt} attempt(s).`);
 } else {
-  console.log(`API call failed after ${MAX_ATTEMPTS} attempts. Escalate issue 🚨`);
+  console.log(`API call failed after ${MAX_ATTEMPTS} attempts. Escalate issue `);
 }
